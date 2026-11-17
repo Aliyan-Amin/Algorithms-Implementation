@@ -1,11 +1,8 @@
 # Algorithms-Implementation
 A collection of essential algorithms and their implementations in C++
-
------------------------------------------------------------------------------------------------------------------
-===== "1: Longest Common Subsequence using Dynamic programming"===== 
------------------------------------------------------------------------------------------------------------------
-A = [1, 0, 1, 1, 1, 0]
-B = [0, 1, 1, 0]
+# 1. LCS using Dynamic programming
+# A = [1, 0, 1, 1, 1, 0]
+# B = [0, 1, 1, 0]
 
 Ask yourself, "What's the longest common part between just the first character of sentence A and the first character 
 of sentence B?" If they match, the answer is 1. If not, it's 0.
@@ -22,4 +19,4 @@ sentences and see which gives me a longer common part."
 
 Repeat this for every pair of positions, filling in a grid from the top-left corner to the bottom-right.
 Each cell only ever looks at three neighbors: the one above, the one to the left, and the one diagonally up-left.
------------------------------------------------------------------------------------------------------------------
+
