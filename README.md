@@ -2,7 +2,7 @@
 A collection of essential algorithms and their implementations in C++
 
 -----------------------------------------------------------------------------------------------------------------
-========================= "1: Longest Common Subsequence using Dynamic programming" =========================
+===== "1: Longest Common Subsequence using Dynamic programming"===== 
 -----------------------------------------------------------------------------------------------------------------
 A = [1, 0, 1, 1, 1, 0]
 B = [0, 1, 1, 0]
