@@ -28,5 +28,5 @@ Steps
 The worst case occurs when the array is sorted in reverse order.
 
 7. Each new element must be compared with and shifted past all the elements before it.
-8. The total work is proportional to 1 + 2 + 3 + ... + (n - 1).
-9. The sum is n(n - 1) / 2, whose dominant term is n^2.
+8. The total work is proportional to 1 + 2 + 3 + ... + (n - 1)
+9. The sum is n(n - 1) / 2, whose dominant term is n^2
