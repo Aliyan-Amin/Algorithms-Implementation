@@ -34,3 +34,15 @@ The worst case occurs when the array is sorted in reverse order.
 7. Each new element must be compared with and shifted past all the elements before it.
 8. The total work is proportional to 1 + 2 + 3 + ... + (n - 1)
 9. The sum is n(n - 1) / 2, whose dominant term is n^2
+
+
+# 3. Merge Sort
+
+Merge Sort is a divide-and-conquer sorting algorithm that recursively splits an array into halves until each sub-array contains a single element,then merges these sorted sub-arrays back together to produce the final sorted list.The merging process combines two sorted halves by comparing elements and placing them in order, which takes linear time, while the recursive division creates a tree with logarithmic depth. 
+
+The time complexity of Merge Sort is O(n log n) across all scenarios: best, average, and worst cases.  This consistency arises because the algorithm always performs the same number of divisions and merges regardless of the input data's initial order. Specifically, the recurrence relation 
+T(n)=2T(n/2)+O(n) resolves to 
+O(nlogn) via the Master Theorem, reflecting the 
+O(n) work performed at each of the 
+O(logn) recursion levels.
+
