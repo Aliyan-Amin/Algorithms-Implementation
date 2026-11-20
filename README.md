@@ -20,6 +20,8 @@ sentences and see which gives me a longer common part."
 Repeat this for every pair of positions, filling in a grid from the top-left corner to the bottom-right.
 Each cell only ever looks at three neighbors: the one above, the one to the left, and the one diagonally up-left.
 
+# 2. Insertion Sort
+
 Steps
 1. Treat the first element as a sorted region of size 1.
 2. Pick the next element — this is the key. 
@@ -29,7 +31,6 @@ Steps
 6. Repeat until the unsorted portion is empty. 
 
 The worst case occurs when the array is sorted in reverse order.
-
 7. Each new element must be compared with and shifted past all the elements before it.
 8. The total work is proportional to 1 + 2 + 3 + ... + (n - 1)
 9. The sum is n(n - 1) / 2, whose dominant term is n^2
